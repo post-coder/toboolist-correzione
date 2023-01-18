@@ -64,9 +64,11 @@ main #todo-ui {
   background-color: white;
 }
 
-main #todo-buttons {
+main #todo-buttons, main #todo-list {
   padding: 0 40px;
+}
 
+main #todo-buttons {
   margin-bottom: 12px;
 }
 
@@ -74,5 +76,41 @@ main .separator {
   border: 2px solid #f4f6f7;
 }
 
+/* todo-list */
+main #todo-list {
+  padding-top: 40px;
+}
 
+main #todo-list ul {
+  list-style-type: none;
+}
 
+main #todo-list li {
+  margin: 0.5em 0;
+} 
+
+main #todo-list .todo-icon {
+  display: inline-block;
+
+  width: 21px;
+  height: 21px;
+
+  text-align: center;
+
+  border: 1px solid black;
+  border-radius: 50%;
+
+  margin-right: 8px;
+
+  font-size: 0.8em;
+}
+
+main #todo-list .todo-icon.check {
+  border-color: green;
+  color: green;
+}
+
+main #todo-list .todo-icon.cross {
+  border-color: red;
+  color: red;
+}
