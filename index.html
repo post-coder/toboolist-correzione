@@ -28,18 +28,20 @@
       <hr class="separator">
 
       <div id="todo-list">
-      
+        <!-- metodo con details -->
         <details>
-          <summary>New Task</summary>
+          <summary class="list-title">New Task</summary>
           <ul>
             <li>
-              <div class="todo-icon check">&check;</div>Task uno
+              <div class="todo-icon check">&check;</div>
+              Task uno 
+              <div class="badge badge-blue">Editorial</div>
             </li>
           </ul>
         </details>
-
+        
         <details>
-          <summary>Today</summary>
+          <summary class="list-title">Today</summary>
           <ul>
             <li>
               <div class="todo-icon check">&check;</div>Task uno
@@ -48,13 +50,20 @@
               <div class="todo-icon cross">&cross;</div>Task due
             </li>
             <li>
-              <div class="todo-icon cross">&cross;</div>Task tre
+              <div class="todo-icon cross">&cross;</div>Task tre<div class="badge badge-orange">Editorial</div>
             </li>
           </ul>
         </details>
-        
         <!-- metodo senza details -->
-        &#9660;
+        <section>
+          <strong class="list-title">&#9660; Upcoming</strong>
+          <ul>
+            <li><div class="todo-icon check">&check;</div>Task uno</li>
+            <li><div class="todo-icon check">&cross;</div>Task due</li>
+            <li><div class="todo-icon cross">&cross;</div>Task tre</li>
+          </ul>
+        </section>
+        
         
 
       </div>

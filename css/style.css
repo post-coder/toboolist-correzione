@@ -52,7 +52,7 @@ body {
 main.container {
   background-color: #f5f7f8;
 
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 100px 20px;
 }
 
 main #todo-ui {
@@ -79,6 +79,14 @@ main .separator {
 /* todo-list */
 main #todo-list {
   padding-top: 40px;
+}
+
+main #todo-list details, main #todo-list section {
+  margin-bottom: 1em;
+}
+
+main #todo-list .list-title {
+  font-size: 1.4em;
 }
 
 main #todo-list ul {
@@ -113,4 +121,26 @@ main #todo-list .todo-icon.check {
 main #todo-list .todo-icon.cross {
   border-color: red;
   color: red;
+}
+
+main #todo-list .badge {
+  display: inline-block;
+  
+  padding: 8px 12px;
+
+  border-radius: 18px;
+
+  color: white;
+  
+  margin: 0 .7em
+}
+
+main #todo-list .badge.badge-blue {
+  background-color: #45aae9;
+
+}
+
+main #todo-list .badge.badge-orange {
+  background-color: #f19d33;
+
 }
