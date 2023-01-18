@@ -8,6 +8,26 @@ body {
   font-family: sans-serif;
 }
 
+.btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  border-color: #47acf0;
+
+  background-color: #47acf0;
+  color: white
+}
+
+.btn-secondary {
+  background-color: #fefefe;
+
+  color: lightgray;
+  border-color: lightgray;
+}
+
+
 
 /* header */
 #header {
@@ -25,6 +45,33 @@ body {
   vertical-align: middle;
 
   font-size: 2.4em;
+}
+
+
+/* main  */
+main.container {
+  background-color: #f5f7f8;
+
+  padding: 40px 20px 0 20px;
+}
+
+main #todo-ui {
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding: 20px 0;
+
+  background-color: white;
+}
+
+main #todo-buttons {
+  padding: 0 40px;
+
+  margin-bottom: 12px;
+}
+
+main .separator {
+  border: 2px solid #f4f6f7;
 }
 
 
